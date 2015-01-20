@@ -7,7 +7,7 @@ import java.io.*;
   * @author sudharshan Narasimhan Vasudevan
  */
 
-public class sxn132630Sort {
+public class MergeSort_DynamicMemoryAlloc {
 
 	/*
 	 * Input : Input array A, start and end points p and r Function :
