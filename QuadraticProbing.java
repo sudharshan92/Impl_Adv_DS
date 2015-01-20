@@ -42,7 +42,7 @@ public class QuadraticProbing {
 
 	QHashEntry[] table;
 
-	ajj140430_QuadraticProbing() {
+	QuadraticProbing() {
 		table = new QHashEntry[TABLE_SIZE];
 		for (int i = 0; i < TABLE_SIZE; i++)
 			table[i] = null;
@@ -175,7 +175,7 @@ public class QuadraticProbing {
 		Scanner sc = new Scanner(System.in);
 		String operation;
 
-		ajj140430_QuadraticProbing QPH = new ajj140430_QuadraticProbing();
+		QuadraticProbing QPH = new QuadraticProbing();
 
 		long start = System.currentTimeMillis();
 
